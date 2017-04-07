@@ -1,7 +1,7 @@
 import React from 'react';
-import Cell from './cell';
-import Button from './button';
-import Flashline from './flashline';
+import Cell from '../components/cell';
+import Button from '../components/button';
+import Flashline from '../components/flashline';
 
 class TicTacToe extends React.Component {
     render() {

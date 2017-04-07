@@ -1,5 +1,5 @@
 import { addMove, resetGame } from '../actions/game';
-import TicTacToe from '../components/tictactoe';
+import TicTacToe from './tictactoe';
 import { connect } from "react-redux";
 
 const getWinner = (cells) => {
